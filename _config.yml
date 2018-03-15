@@ -13,6 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+remote_theme: "mmistakes/minimal-mistakes"
 title: Glenn Lanzer III
 email: lanzertrey@gmail.com
 description: This is the main website for Glenn Lanzer III (aka Trey). Glenn is my real name, 
@@ -26,9 +27,9 @@ github_username:  TexasBullet26
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+#theme: minima
+#plugins:
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
